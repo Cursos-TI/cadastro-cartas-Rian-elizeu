@@ -137,8 +137,42 @@ int main() {                                   // Área para definição das var
     printf("---------------------- \n");
 
   } if(densidade_populacional1 > densidade_populacional2){
-    
-  }
+    printf("   DENSIDADE POPULACIONAL \n ");
+    printf("CARTA1: %.1f \n", densidade_populacional1);
+    printf("CARTA2: %.1f \n", densidade_populacional2);
+    printf("CARTA1 venceu!! \n");
+    printf("---------------------- \n");
+  }else {
+    printf("   DENSIDADE POPULACIONAL \n ");
+    printf("CARTA1: %.1f \n", densidade_populacional1);
+    printf("CARTA2: %.1f \n", densidade_populacional2);
+    printf("CARTA2 venceu!! \n");
+    printf("---------------------- \n");
+  } if(pib_per_capita1 > pib_per_capita2){
+    printf("   PIB PER CAPITA \n");
+    printf("CARTA1: %.1f \n", pib_per_capita1);
+    printf("CARTA2: %.1f \n", pib_per_capita2);
+    printf("CARTA1 venceu!! \n");
+    printf("---------------------- \n");
+  }else {
+    printf("   PIB PER CAPITA \n");
+    printf("CARTA1: %.1f \n", pib_per_capita1);
+    printf("CARTA2: %.1f \n", pib_per_capita2);
+    printf("CARTA2 venceu!! \n");
+    printf("---------------------- \n");
+    } if(superpoder1 > superpoder2){
+      printf("    SUPER PODER \n");
+      printf("CARTA1: %.1f \n", superpoder1);
+      printf("CARTA2: %.1f \n", superpoder2);
+      printf("CARTA1 venceu!! \n");
+      printf("--------------------- \n");
+    }else{
+      printf("    SUPER PODER \n");
+      printf("CARTA1: %.1f \n", superpoder1);
+      printf("CARTA2: %.1f \n", superpoder2);
+      printf("CARTA2 venceu!! \n");
+      printf("--------------------- \n");
+    }
 
 
   /*printf("população: carta 1 venceu (%u) \n", populacao1 > populacao2);
