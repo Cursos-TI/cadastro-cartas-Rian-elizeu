@@ -82,7 +82,7 @@ int main() {                                   // Área para definição das var
   
   //Área para exibição dos dados da cidade
   printf("====================================== \n");     
-  printf("         COMPARAÇÃO DAS CARTAS \n");
+  printf("         COMPARAÇÃO DAS CARTAS \n");              //bloco de comparação dos dados inseridos pelo usuario
 
   if(populacao1 > populacao2){
     printf("     POPULAÇÃO \n");
